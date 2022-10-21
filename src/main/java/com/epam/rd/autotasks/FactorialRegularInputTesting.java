@@ -24,7 +24,8 @@ class FactorialRegularInputTesting {
         return Stream.of(
                 Arguments.of("4", "24"),
                 Arguments.of("10", "3628800"),
-                Arguments.of("6", "720")
+                Arguments.of("6", "720"),
+                Arguments.of("13", "6227020800")
         );
     }
 }
